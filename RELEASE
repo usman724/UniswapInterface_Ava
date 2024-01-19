@@ -1,0 +1,24 @@
+IPFS hash of the deployment:
+- CIDv0: `QmV3G3jJxFrN3q1XUo67J8Q1U7jBP42DDWkS8JSVWcfWbS`
+- CIDv1: `bafybeiddrvh2jskkihnnlw4i4rs23m43bg56bjpdr43cfon6oddmha6lue`
+
+The latest release is always mirrored at [app.uniswap.org](https://app.uniswap.org).
+
+You can also access the Uniswap Interface from an IPFS gateway.
+**BEWARE**: The Uniswap interface uses [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to remember your settings, such as which tokens you have imported.
+**You should always use an IPFS gateway that enforces origin separation**, or our hosted deployment of the latest release at [app.uniswap.org](https://app.uniswap.org).
+Your Uniswap settings are never remembered across different URLs.
+
+IPFS gateways:
+- https://bafybeiddrvh2jskkihnnlw4i4rs23m43bg56bjpdr43cfon6oddmha6lue.ipfs.dweb.link/
+- https://bafybeiddrvh2jskkihnnlw4i4rs23m43bg56bjpdr43cfon6oddmha6lue.ipfs.cf-ipfs.com/
+- [ipfs://QmV3G3jJxFrN3q1XUo67J8Q1U7jBP42DDWkS8JSVWcfWbS/](ipfs://QmV3G3jJxFrN3q1XUo67J8Q1U7jBP42DDWkS8JSVWcfWbS/)
+
+### 5.4.1 (2024-01-17)
+
+
+### Bug Fixes
+
+* **web:** remove Object.hasOwn usage (#5751) 82c322b
+
+
